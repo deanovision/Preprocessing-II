@@ -181,7 +181,7 @@ img {
   margin: 0 auto;
   padding: 2rem 0rem;
 }
-@media ( max-width: 500px ) {
+@media (max-width: 500px) {
   .nav-container .top-nav {
     flex-direction: column;
   }
@@ -192,7 +192,7 @@ img {
   width: 40%;
   padding-right: 2rem;
 }
-@media ( max-width: 500px ) {
+@media (max-width: 500px) {
   .nav-container .top-nav .nav-bar {
     width: 100%;
     padding: 0rem 2rem;
@@ -206,7 +206,7 @@ img {
 .nav-container .top-nav .nav-heading {
   width: 55%;
 }
-@media ( max-width: 500px ) {
+@media (max-width: 500px) {
   .nav-container .top-nav .nav-heading {
     width: 100%;
     text-align: center;
@@ -289,7 +289,7 @@ img {
   background: #DEF2F1;
   border: 0.2rem solid black;
 }
-@media ( max-width: 500px ) {
+@media (max-width: 500px) {
   .home .home {
     max-width: 100%;
   }
