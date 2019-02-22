@@ -1,1 +1,16 @@
 // Mixins in here
+.sign-me-up(@font:#FFFFFF, @background:#008080, @hover-font: #000000, @hover-background:#DEF2F1){
+color: @font;
+background: @background;
+border-radius: 1.2rem;
+width: 80%;
+padding: 1rem 2rem;
+font-size: 1.6rem;
+text-align: center;
+
+    &:hover{
+    color: @hover-font;
+    background: @hover-background;
+    border: 0.2rem solid black;
+    }
+}

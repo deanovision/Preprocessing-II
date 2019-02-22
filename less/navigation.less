@@ -4,6 +4,7 @@
     max-width: 100%;
     border-bottom: 2px dashed grey;
     
+    
     .top-nav{
         display: flex;
         justify-content: space-between;
@@ -12,6 +13,11 @@
         width: 100%;
         margin: 0 auto;
         padding: 2rem 0rem;
+
+        @media @mobile {
+        flex-direction: column;
+        
+        }
         
         
         
@@ -20,6 +26,12 @@
             justify-content: space-between;
             width: 40%;
             padding-right: 2rem;
+
+            @media @mobile{
+                width: 100%;
+                padding: 0rem 2rem;
+                
+            }
     
             a{
                 font-size: 1.6rem;
@@ -30,6 +42,12 @@
     
         .nav-heading{
             width: 55%;
+
+            @media @mobile{
+                width: 100%;
+                text-align: center;
+                
+            }
         }
     
     }
